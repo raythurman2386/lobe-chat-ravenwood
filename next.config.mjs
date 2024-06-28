@@ -170,8 +170,8 @@ const withSentry =
 
             // Suppresses source map uploading logs during build
             silent: true,
-            org: process.env.SENTRY_ORG,
-            project: process.env.SENTRY_PROJECT,
+            org: process.env.SENTRY_ORG_NEW,
+            project: process.env.SENTRY_PROJECT_NEW,
           },
           {
             // For all available options, see:
